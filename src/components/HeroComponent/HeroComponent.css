@@ -1,0 +1,41 @@
+.welcomeHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 464px;
+  background-color: #ffcc00;
+  background-repeat: no-repeat;
+  background-size: auto 700px;
+  line-height: 44px;
+  text-align: center;
+  color: #333;
+  padding-top: 100px;
+}
+.welcomeHeader-h1 {
+  display: block;
+  padding-bottom: 20px;  
+  max-width: 592px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+.home-input{
+  margin: 0;
+    width: 100%;
+    max-width: 592px;
+    height: 48px;
+    border-width: 1px;
+    border-radius: 8px;
+    color: #333;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Roboto;
+    border: 1px solid #ccc;
+    padding: 1px 20px 1px 48px;
+    font-size: 16px;
+    border-color: #999;
+    cursor: text;
+}
